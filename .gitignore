@@ -1,0 +1,49 @@
+# Node
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+/dist/
+/build/
+/out/
+/.vite/
+/.cache/
+/.parcel-cache/
+
+# Coverage
+/coverage/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and editors
+/.vscode/
+/.idea/
+
+# Project folders
+/Backend/node_modules/
+/Frontend/node_modules/
+
+# Misc
+*.tgz
+*.pid
+*.seed
+
+# Public build output (frontend)
+/public/
